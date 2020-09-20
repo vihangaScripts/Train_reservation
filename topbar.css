@@ -1,0 +1,145 @@
+*clearfix{overflow: auto;}
+.top-bar{
+	
+	top: 0;
+	position: fixed;
+	width:98%;
+	background-color: rgba(20,25,35,.90);
+	position: fixed;
+	padding-right: 3px;
+	height: 70px;
+	  max-width: 1500px;
+	min-width: 1500px;
+	z-index: 5;
+	
+	
+	}
+	
+	.top-bar strong{
+	  font-family: head;
+	margin-left: 380px;
+	
+	color: white;
+	font-size: 25px;
+	}
+	.site-search{
+	  padding:5px 25px;	
+	  margin-top: 10px;
+	  margin-right: 65px;
+	  float:right;
+	  background: white;
+	  border-radius: 25px;
+	}
+	.site-search input{
+	  width: 250px;
+	  border:0;
+	  float: left;
+	}
+	.site-search button{
+	
+	  width: 18px;
+	  height: 18px;
+	  background: url('img/search.png');
+	  border: 0;
+	  float: right;
+	}
+	.top-img{
+	
+	  background-size: cover;
+	  margin-top: -6px;
+	  margin-right: -5px;
+	
+	}
+	
+	.nav-bar{
+	top: 70px;
+	position: fixed;
+	width:98%;
+	background-color: rgba(20,25,35,.90);
+	height: 80px;
+	padding-right: 3px;
+	  max-width: 1500px;
+	min-width: 1500px;
+	z-index: 5;
+	
+	}
+	.nav-bar img{
+	  margin-left: 20px;
+	}
+	.nav-bar:hover{
+	  background: black;
+	}
+	.nav-bar-links{
+	
+	  float: right;
+	}
+	.nav-bar-links ul{
+	margin-top: 15px;
+	margin-right: 60px;
+	}
+	.nav-bar-links ul li{
+	  border-radius: 5px;
+	  border: 5px 5px 5px 5px;
+	  display: inline-block;
+	  padding: 5px 5px 5px 5px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  border-right: 1px solid white;
+	  margin-bottom: 10px;
+	
+	
+	}
+	.nav-bar-links ul li:first-child{
+	  background: blue;
+	}
+	.nav-bar-links ul li:hover{
+	  background: blue;
+	
+	}
+	.nav-bar-links ul li a{
+	
+	  text-transform: uppercase;
+	  font-size: 15px;
+	  margin-right: 10px;
+	  letter-spacing: 1px;
+	  color: white;
+	}
+	.top-bar img{
+	
+	  margin-top: 15px;
+	  margin-left: 50px;
+	  float: left;
+	  border-radius: 4px;
+	  position: relative;
+	}
+  
+	 /*______________________________FOOTER_________________________________________*/
+
+	 .btm-bar{
+		margin-top: 0px;
+		margin-left: 20px;
+		width:98%;
+		background-color: black;
+		height: 90px;
+		text-align: center;
+	
+	}
+	
+	.bcol1{
+		width: 33%;
+		float: left;
+	}
+	
+	.bcol2{   
+		width: 33%;
+		float: left;
+	}
+	
+	.bcol3{   
+		width: 33%;
+		float: left;
+	}
+	.btm-bar:hover{
+		background: rgba(20,25,35,.90);
+	}
+	

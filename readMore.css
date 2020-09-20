@@ -1,0 +1,66 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: wheat;
+}
+
+.new{
+    background-color: #0a0701;
+    width: 80px;
+    height: 380px;
+    border: 15px solid rgb(19, 19, 221);
+    padding: 20px;
+    float: left;
+    position: fixed;
+    left: -3px;
+    color: wheat;
+    margin-top: -5%;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #kandy {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #colombo {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #galle {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #matara {
+    top: 200px;
+    background-color: #4CAF50
+  }
+
+  #ella {
+    top: 260px;
+    background-color: #2196F3
+  }
+
+  #jaffna {
+    top: 320px;
+    background-color: #f44336
+  }
